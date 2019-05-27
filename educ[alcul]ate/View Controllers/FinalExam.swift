@@ -118,8 +118,8 @@ class FinalExam: UIViewController {
     
     func applyTheme() {
         view.backgroundColor = Theme.current.background
-        UINavigationBar.appearance().barTintColor = Theme.current.accent
-        self.tabBarController?.tabBar.barTintColor = Theme.current.accent
+        UINavigationBar.appearance().barTintColor = Theme.current.navTab
+        self.tabBarController?.tabBar.barTintColor = Theme.current.navTab
         navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Theme.current.fontColor]
         label1.textColor = Theme.current.fontColor
         calcType.textColor = Theme.current.fontColor

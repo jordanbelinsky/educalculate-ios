@@ -20,6 +20,7 @@ class Classes: UIViewController, UITableViewDelegate, UITableViewDataSource, NSF
 
         title = "Classes"
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.tableFooterView = UIView()
         
         applyTheme()
     }
@@ -133,8 +134,8 @@ class Classes: UIViewController, UITableViewDelegate, UITableViewDataSource, NSF
     
     func applyTheme() {
         view.backgroundColor = Theme.current.background
-        UINavigationBar.appearance().barTintColor = Theme.current.accent
-        self.tabBarController?.tabBar.barTintColor = Theme.current.accent
+        UINavigationBar.appearance().barTintColor = Theme.current.navTab
+        self.tabBarController?.tabBar.barTintColor = Theme.current.navTab
         navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Theme.current.fontColor]
         tableView.backgroundColor = Theme.current.background
         tableView.reloadData()

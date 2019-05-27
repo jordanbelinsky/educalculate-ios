@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         RunLoop.current.run(until: NSDate(timeIntervalSinceNow:1) as Date)
         if UserDefaults.standard.object(forKey: "DarkTheme") != nil {
             Theme.current = UserDefaults.standard.bool(forKey: "DarkTheme") ? DarkTheme() : LightTheme()
+            UINavigationBar.appearance().barTintColor = Theme.current.navTab
         }
         return true
     }

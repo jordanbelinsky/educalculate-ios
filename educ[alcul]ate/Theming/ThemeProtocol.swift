@@ -11,6 +11,6 @@ import UIKit
 protocol ThemeProtocol {
     var accent: UIColor { get }
     var background: UIColor { get }
-    var tint: UIColor { get }
+    var navTab: UIColor { get }
     var fontColor: UIColor { get }
 }

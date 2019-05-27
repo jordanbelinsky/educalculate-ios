@@ -42,8 +42,8 @@ class AddClass: UIViewController {
     
     func applyTheme() {
         view.backgroundColor = Theme.current.background
-        UINavigationBar.appearance().barTintColor = Theme.current.accent
-        self.tabBarController?.tabBar.barTintColor = Theme.current.accent
+        UINavigationBar.appearance().barTintColor = Theme.current.navTab
+        self.tabBarController?.tabBar.barTintColor = Theme.current.navTab
         navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Theme.current.fontColor]
         nameLabel.textColor = Theme.current.fontColor
         nameInput.backgroundColor = Theme.current.accent

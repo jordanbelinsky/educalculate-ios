@@ -38,20 +38,21 @@ class Settings: UIViewController {
         applyTheme()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         applyTheme()
     }
     
     @IBAction func themeChanged(_ sender: UISwitch) {
         Theme.current = sender.isOn ? DarkTheme() : LightTheme()
         UserDefaults.standard.set(sender.isOn, forKey: "DarkTheme")
+        navigationController?.navigationBar.barTintColor = Theme.current.navTab
         applyTheme()
     }
     
     func applyTheme() {
         view.backgroundColor = Theme.current.background
-        UINavigationBar.appearance().barTintColor = Theme.current.accent
-        self.tabBarController?.tabBar.barTintColor = Theme.current.accent
+        UINavigationBar.appearance().barTintColor = Theme.current.navTab
+        self.tabBarController?.tabBar.barTintColor = Theme.current.navTab
         navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: Theme.current.fontColor]
         name.textColor = Theme.current.fontColor
         subtitle.textColor = Theme.current.fontColor

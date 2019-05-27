@@ -11,6 +11,6 @@ import UIKit
 class LightTheme: ThemeProtocol {
     var accent: UIColor = UIColor(named: "LightAccent")!
     var background: UIColor = UIColor(named: "LightBackground")!
-    var tint: UIColor = UIColor(named: "LightTint")!
+    var navTab: UIColor = UIColor(named: "LightNavTab")!
     var fontColor: UIColor = UIColor(named: "LightFont")!
 }
