@@ -12,5 +12,6 @@ protocol ThemeProtocol {
     var accent: UIColor { get }
     var background: UIColor { get }
     var navTab: UIColor { get }
+    var placeholder: UIColor { get }
     var fontColor: UIColor { get }
 }

@@ -31,7 +31,7 @@ class Settings: UIViewController {
         profile.layer.cornerRadius = profile.frame.height/2
         profile.clipsToBounds = true
 
-        version.text = "Version: 1.0~b10"
+        version.text = "Version: 1.0~b11"
         
         themeSwitch.setOn(UserDefaults.standard.bool(forKey: "DarkTheme"), animated: true)
         

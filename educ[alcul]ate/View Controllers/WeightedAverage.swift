@@ -259,35 +259,35 @@ class WeightedAverage: UIViewController {
         label1.textColor = Theme.current.fontColor
         
         mInput1.backgroundColor = Theme.current.accent
-        mInput1.attributedPlaceholder = NSAttributedString(string: "Mark #1", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        mInput1.attributedPlaceholder = NSAttributedString(string: "Mark #1", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         mInput1.textColor = Theme.current.fontColor
         mInput2.backgroundColor = Theme.current.accent
-        mInput2.attributedPlaceholder = NSAttributedString(string: "Mark #2", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        mInput2.attributedPlaceholder = NSAttributedString(string: "Mark #2", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         mInput2.textColor = Theme.current.fontColor
         mInput3.backgroundColor = Theme.current.accent
-        mInput3.attributedPlaceholder = NSAttributedString(string: "Mark #3", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        mInput3.attributedPlaceholder = NSAttributedString(string: "Mark #3", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         mInput3.textColor = Theme.current.fontColor
         mInput4.backgroundColor = Theme.current.accent
-        mInput4.attributedPlaceholder = NSAttributedString(string: "Mark #4", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        mInput4.attributedPlaceholder = NSAttributedString(string: "Mark #4", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         mInput4.textColor = Theme.current.fontColor
         mInput5.backgroundColor = Theme.current.accent
-        mInput5.attributedPlaceholder = NSAttributedString(string: "Mark #5", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        mInput5.attributedPlaceholder = NSAttributedString(string: "Mark #5", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         mInput5.textColor = Theme.current.fontColor
         
         wInput1.backgroundColor = Theme.current.accent
-        wInput1.attributedPlaceholder = NSAttributedString(string: "Weight #1", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput1.attributedPlaceholder = NSAttributedString(string: "Weight #1", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput1.textColor = Theme.current.fontColor
         wInput2.backgroundColor = Theme.current.accent
-        wInput2.attributedPlaceholder = NSAttributedString(string: "Weight #2", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput2.attributedPlaceholder = NSAttributedString(string: "Weight #2", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput2.textColor = Theme.current.fontColor
         wInput3.backgroundColor = Theme.current.accent
-        wInput3.attributedPlaceholder = NSAttributedString(string: "Weight #3", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput3.attributedPlaceholder = NSAttributedString(string: "Weight #3", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput3.textColor = Theme.current.fontColor
         wInput4.backgroundColor = Theme.current.accent
-        wInput4.attributedPlaceholder = NSAttributedString(string: "Weight #4", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput4.attributedPlaceholder = NSAttributedString(string: "Weight #4", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput4.textColor = Theme.current.fontColor
         wInput5.backgroundColor = Theme.current.accent
-        wInput5.attributedPlaceholder = NSAttributedString(string: "Weight #5", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput5.attributedPlaceholder = NSAttributedString(string: "Weight #5", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput5.textColor = Theme.current.fontColor
     }
     

@@ -12,5 +12,6 @@ class LightTheme: ThemeProtocol {
     var accent: UIColor = UIColor(named: "LightAccent")!
     var background: UIColor = UIColor(named: "LightBackground")!
     var navTab: UIColor = UIColor(named: "LightNavTab")!
+    var placeholder: UIColor = UIColor(named: "LightPlaceholder")!
     var fontColor: UIColor = UIColor(named: "LightFont")!
 }

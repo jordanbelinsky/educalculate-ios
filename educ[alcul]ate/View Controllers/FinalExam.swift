@@ -48,12 +48,10 @@ class FinalExam: UIViewController {
         switch segmentedControl.selectedSegmentIndex {
         case 0:
             calcType.text = "What is the mark you want to end with:"
-            fMInput.placeholder = "Enter desired final mark (%)"
             markOutput.text = "The mark you need is:"
             calcButton.setTitle("Calculate Exam Mark", for: .normal)
         case 1:
             calcType.text = "What is the exam mark you want:"
-            fMInput.placeholder = "Enter desired exam mark (%)"
             markOutput.text = "Your final average is:"
             calcButton.setTitle("Calculate Final Average", for: .normal)
         default:
@@ -125,20 +123,13 @@ class FinalExam: UIViewController {
         calcType.textColor = Theme.current.fontColor
         label3.textColor = Theme.current.fontColor
         cMInput.backgroundColor = Theme.current.accent
-        cMInput.attributedPlaceholder = NSAttributedString(string: "Enter current mark (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        cMInput.attributedPlaceholder = NSAttributedString(string: "Enter current mark (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         cMInput.textColor = Theme.current.fontColor
         fMInput.backgroundColor = Theme.current.accent
+        fMInput.attributedPlaceholder = NSAttributedString(string: "Enter your mark (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         fMInput.textColor = Theme.current.fontColor
-        switch segmentedControl.selectedSegmentIndex {
-        case 0:
-            fMInput.attributedPlaceholder = NSAttributedString(string: "Enter desired final mark (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
-        case 1:
-            fMInput.attributedPlaceholder = NSAttributedString(string: "Enter desired exam mark (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
-        default:
-            break
-        }
         wInput.backgroundColor = Theme.current.accent
-        wInput.attributedPlaceholder = NSAttributedString(string: "Enter your exam weight (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.fontColor])
+        wInput.attributedPlaceholder = NSAttributedString(string: "Enter your exam weight (%)", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholder])
         wInput.textColor = Theme.current.fontColor
         markOutput.textColor = Theme.current.fontColor
     }
