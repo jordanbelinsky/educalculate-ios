@@ -9,4 +9,4 @@ Based upon my Python Application Edu[calcul]ate, this application is a complete 
 - Document each returned assignment/examination, and its corresponding mark
 
 ## Screenshots:
-![Screenshot 1](https://github.com/jordanbelinsky/educalculate-ios/screenshots/1.jpg)
+![Screenshot 1](https://github.com/jordanbelinsky/educalculate-ios/blob/master/screenshots/1.jpg)
