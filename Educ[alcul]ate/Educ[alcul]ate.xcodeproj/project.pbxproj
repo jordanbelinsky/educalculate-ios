@@ -11,6 +11,7 @@
 		D0B25A3525A862B800F18BF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B25A3425A862B800F18BF4 /* ContentView.swift */; };
 		D0B25A3725A862BA00F18BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B25A3625A862BA00F18BF4 /* Assets.xcassets */; };
 		D0B25A3A25A862BA00F18BF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B25A3925A862BA00F18BF4 /* Preview Assets.xcassets */; };
+		D0D498BB25A93E7C0062B5EE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D498BA25A93E7C0062B5EE /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D0B25A3625A862BA00F18BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B25A3925A862BA00F18BF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0B25A3B25A862BA00F18BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D498BA25A93E7C0062B5EE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D0B25A3225A862B800F18BF4 /* Educ_alcul_ateApp.swift */,
 				D0B25A3425A862B800F18BF4 /* ContentView.swift */,
+				D0D498BA25A93E7C0062B5EE /* MenuView.swift */,
 				D0B25A3625A862BA00F18BF4 /* Assets.xcassets */,
 				D0B25A3B25A862BA00F18BF4 /* Info.plist */,
 				D0B25A3825A862BA00F18BF4 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B25A3525A862B800F18BF4 /* ContentView.swift in Sources */,
+				D0D498BB25A93E7C0062B5EE /* MenuView.swift in Sources */,
 				D0B25A3325A862B800F18BF4 /* Educ_alcul_ateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
