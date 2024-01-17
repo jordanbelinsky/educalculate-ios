@@ -59,7 +59,7 @@ After building the original Educ(alcul)ate as a quick and convenient way to comp
 
 All of these features combine to create a more feature-complete app for students to track their success at any level of education. Versions were beta tested amongst my peers, and upon its final release to the App Store, it was featured in the York Region District School Board (YRDSB) Guidance Toolbook, in guidance offices across the district.
 
-As of 2020, the app is no longer available on the App Store, but can be built for personal use using Xcode.
+As of 2021, the app is no longer available on the App Store, but can be built for personal use using Xcode.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
