@@ -71,17 +71,6 @@ As of 2020, the app is no longer available on the App Store, but can be built fo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-## How It Works
-
-I looked to screenshots/cached versions of Tom's website for inspiration of an algorithm for determining planets, while making some modifications myself as well. Using weather condition codes retrieved from the Open Weather API, I assign planets as follows:
-
-Each planet has a day and night configuration, so the planet will match the time of day at your current location and display accordingly.
-
-There is also a written description to go along with the photo for details sake.
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -94,9 +83,10 @@ As of 2020, the app is no longer available on the App Store, but can be built fo
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Refresh at each view load
-- [ ] Pull to manually refresh
-- [ ] Persistent location (no need to go through splash screen at each launch)
+- [ ] SwiftUI rewrite
+- [ ] Refactor calculations into their own section
+- [ ] Add more calculations
+- [ ] Native widget support
 
 See the [open issues](https://github.com/jordanbelinsky/educalculate-ios/issues) for a full list of proposed features (and known issues).
 
